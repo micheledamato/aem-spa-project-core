@@ -39,7 +39,7 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 public class RemotePageImpl extends PageImpl implements RemotePage {
 
     static final String RESOURCE_TYPE_SPA = "spa-project-core/components/remotepage";
-    static final String RESOURCE_TYPE_NEXT = "spa-project-core/components/remotepagenext";
+    static final String RESOURCE_TYPE_NEXT = "eurobet-site/components/eurobet-remotepagenext";
 
     @Self
     private SlingHttpServletRequest request;
